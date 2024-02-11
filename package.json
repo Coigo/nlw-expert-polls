@@ -1,0 +1,23 @@
+{
+  "name": "nlw-enquetes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch ./src/http/server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.9.1",
+    "@types/node": "^20.11.17",
+    "fastify": "^4.26.0",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "prisma": "^5.9.1"
+  }
+}
